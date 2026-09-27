@@ -52,9 +52,9 @@ slide-template/
 │   ├── section1-crop.jpg / section1.jpg
 │   ├── section2-crop.jpg / section2.jpg
 │   ├── closing-photo.jpg
-│   ├── background-photo.jpg
+│   ├── hamster-in-tube.jpg
 │   ├── hamster-in-pot.jpg
-│   ├── hamster-*.png      # テーマ装飾画像
+│   ├── hamster-cover.png
 │   └── .gitkeep
 ├── dist/                  # ビルド出力（gitignore）
 └── .work/                 # Slidev 内部キャッシュ（gitignore）

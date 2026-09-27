@@ -51,7 +51,7 @@ image: /images/section1-crop.jpg
 layout: split
 side: right
 footer: false
-image: /images/background-photo.jpg
+image: /images/hamster-in-tube.jpg
 ---
 
 # 背景と<br>目的
