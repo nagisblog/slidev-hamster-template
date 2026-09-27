@@ -53,7 +53,7 @@ slide-template/
 │   ├── section2-crop.jpg / section2.jpg
 │   ├── closing-photo.jpg
 │   ├── background-photo.jpg
-│   ├── example-photo.jpg
+│   ├── hamster-in-pot.jpg
 │   ├── hamster-*.png      # テーマ装飾画像
 │   └── .gitkeep
 ├── dist/                  # ビルド出力（gitignore）

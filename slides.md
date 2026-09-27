@@ -235,7 +235,7 @@ side: right
 ---
 layout: split
 side: left
-image: /images/example-photo.jpg
+image: /images/hamster-in-pot.jpg
 ---
 
 # 事例の紹介
