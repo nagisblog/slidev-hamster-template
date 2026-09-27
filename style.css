@@ -52,6 +52,7 @@
   font-size: 11px;
   line-height: 1.3;
 }
+.image-slide-number { position: absolute; z-index: 2; right: 40px; bottom: 22px; color: white; font-size: 11px; line-height: 1.3; text-shadow: 0 1px 3px #0009; }
 .media-placeholder { position: relative; background: var(--media); color: #776c5b; display: grid; place-items: center; overflow: hidden; }
 .media-placeholder > span { font-size: 16px; letter-spacing: .12em; }
 .media-placeholder img { width: 100%; height: 100%; position: absolute; inset: 0; }
@@ -83,14 +84,14 @@
 .sage-split hr { margin: 34px 0; }
 .sage-split.media-left .deck-footer { left: 43%; }
 .sage-split.media-right .deck-footer { right: 43%; }
-.sage-split .deck-footer span:last-child { display: none; }
+.sage-split.media-left .image-slide-number { color: #686b63; text-shadow: none; }
 .sage-side header { position: absolute; top: 0; bottom: 0; width: 39.5%; background: var(--sage); color: white; padding: 65px 64px; display: flex; align-items: center; }
 .sage-side.title-left header { border-right: 1px solid var(--rule); }
 .sage-side.title-right header { right: 0; border-left: 1px solid var(--rule); }
 .sage-side main { position: absolute; top: 0; bottom: 0; width: 60.5%; padding: 75px 70px 65px; display: flex; flex-direction: column; justify-content: center; }
 .sage-side.title-left main { right: 0; }
 .sage-side.title-left .deck-footer { left: 46%; }
-.sage-side.title-right .deck-footer { right: 45%; }
+.sage-side.title-right .deck-footer span:last-child { color: white; }
 .sage-default header { height: 168px; background: var(--sage); color: white; border-bottom: 5px solid var(--rule); padding: 36px 82px; display: flex; align-items: center; }
 .sage-default header h1 { font-size: 36px; }
 .sage-default main { padding: 42px 82px 66px; }
@@ -138,6 +139,7 @@
 .sage-agenda main { width: 35%; }
 .agenda-media { top: 20%; right: 3%; width: 51%; height: 60%; background: white; }
 .agenda-media img { object-fit: contain !important; }
+.sage-agenda .image-slide-number { color: #686b63; text-shadow: none; }
 .sage-section:has(.section-media.has-image) .section-media { inset: 0 0 0 auto; width: 44%; height: 100%; background: white; }
 .sage-section:has(.section-media.has-image) .section-media::after { display: none; }
 .sage-section:has(.section-media.has-image) .section-media img { object-fit: cover !important; }

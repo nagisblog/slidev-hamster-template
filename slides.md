@@ -50,7 +50,7 @@ image: /images/section1-crop.jpg
 ---
 layout: split
 side: right
-footer: false
+footerNumberOnly: true
 image: /images/hamster-in-tube.jpg
 ---
 

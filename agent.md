@@ -45,7 +45,7 @@ slide-template/
 ├── components/            # グローバル Vue コンポーネント
 │   ├── DeckFooter.vue     # ページフッター（タイトルとページ番号）
 │   ├── MediaPlaceholder.vue  # 画像/図版プレースホルダー
-│   └── HamsterMark.vue    # 装飾用ハムスターマーク
+│   └── SlideNumber.vue    # 画像付きレイアウトのページ番号
 ├── public/images/         # 静的画像アセット
 │   ├── cover-photo.jpg
 │   ├── agenda-photo.jpg
@@ -152,15 +152,15 @@ transition: fade
 ## コンポーネント
 
 ### DeckFooter
-全レイアウトで使用。`$frontmatter.footer` または `$slidev.configs.title` を表示。  
+本文系レイアウトで使用。`$frontmatter.footer` または `$slidev.configs.title` を表示。
 `footer: false` で非表示、`footer: 任意の文字列` で上書き可能。
+
+### SlideNumber
+目次・セクション・split レイアウトで右下にページ番号を表示。表紙とクロージングでは非表示。
 
 ### MediaPlaceholder
 画像プレースホルダー。`src` が指定されていれば `<img>` を表示、なければラベルを表示。  
 props: `src`, `alt`, `label`（デフォルト「画像・図版」）, `fit`（`cover` | `contain`、デフォルト `cover`）
-
-### HamsterMark
-テーマの装飾用アイコン（`/images/hamster-geometric.png`）。現在スライドでは使用していない。
 
 ## 配色（CSS カスタムプロパティ）
 

@@ -6,6 +6,7 @@ defineProps<{ image?: string; imageAlt?: string }>()
   <div class="slidev-layout sage-agenda">
     <main><slot /></main>
     <MediaPlaceholder class="agenda-media" :src="image" :alt="imageAlt" />
-    <DeckFooter />
+    <DeckFooter hide-number />
+    <SlideNumber />
   </div>
 </template>
